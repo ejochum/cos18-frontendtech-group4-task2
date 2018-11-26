@@ -1,0 +1,122 @@
+html {
+    font-size: 24px;
+    font-family: 'Crimson Text', serif;
+    line-height: 1.5;
+    color: #2B1A01;
+
+}
+body{
+    background: #FAF3E7;
+}
+
+h1 {
+    font-size: 52px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+a {
+  color: #2B1A01;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    //margin: 0 auto;
+}
+
+.logo{
+    width: 300px;
+    //padding: 20px;
+}
+
+.keksbild{
+    margin: 0;
+}
+
+#all{
+    max-width: 1200px;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    background: #FFF;
+}
+
+#header{
+    padding: 0 20px 20px 0;
+}
+
+#navigation{
+    background: #2B1A01;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #FFF;
+    padding: 25px;
+}
+
+#navigation a{
+    color: #FFF;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#navigation a:hover{
+    color: #E5E5E5;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+#main{
+}
+
+.content{
+    margin-top:0;
+    width: 65%;
+    float: left;
+}
+
+.sidebar{
+    width: 30%;
+    margin-left: 70%;
+}
+
+#footer{
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px #CCC solid;
+}
+
+.clear{ clear: both; }
+
+/* Mobil */
+@media(max-width:500px) {
+    /* Alle Anweisungen innerhalb dieser Klammer gelten für Geräte mit maximal 500px Breite */
+     .content{
+         width: 100%;
+    }
+    .sidebar{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+@media(min-width:600px) {
+    /* Alle Anweisungen innerhalb dieser Klammer gelten für Geräte mit mindestens 600px Breite */
+}
+
+@media(min-width:600px) and (max-width: 1000px) {
+    /* Alle Anweisungen innerhalb dieser Klammer gelten für Geräte mit einer Breite von 600px - 1000px Breite */
+}
